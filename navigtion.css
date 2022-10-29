@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+
+}
+.hero{
+	1height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+url(https://as2.ftcdn.net/v2/jpg/05/35/38/55/1000_F_535385576_shJA1Ng3bLa7yZiyNzWTt95THpADTZSX.jpg);
+background-size: cover;
+background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.logo{
+	color: white;
+	font-size: 28px;
+}
+span{
+	color: red;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 20px;
+}
+nav ul li  a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+nav ul li a:hover{
+	color: red;
+	transition: .3s;
+}
+button{
+	border: none;
+	background: red;
+	padding: 12px 36px;
+	border-radius: 25px;
+
+}
+button:hover{
+	color: white;
+	transform: scale(1.5);
+}
+span{
+	color: yellowgreen;
+}
+ 
+.hero input{
+border: 2px solid black;
+border-radius: 4px;
+}
+.search{
+	float: right;
+	border-width: 100px;
+}
